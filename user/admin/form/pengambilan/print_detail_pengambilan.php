@@ -111,7 +111,7 @@ $j_ambil = mysqli_num_rows($qambil);
        // arsort($kumpuldata);
        $totdebit = 0 ;
        $totkredit = 0 ;
-    
+$no=1;    
 foreach ($kumpuldata as $key => $value) { 
         $totdebit += $value['debit'];
         $totkredit += $value['kredit'];
